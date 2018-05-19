@@ -7,6 +7,7 @@ public class AddAction extends ActionSupport {
 	private String firstNumber;
 	private String secondNumber;
 	private String result;
+        private int id;
 
 	@Override
 	public String execute() throws Exception {
